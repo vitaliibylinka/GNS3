@@ -1,0 +1,30 @@
+    "BGP_NEIGHBOR": {
+        "10.0.1.1": {
+            "rrclient": 0, 
+            "name": "SONiC2-3", 
+            "local_addr": "10.0.1.2", 
+            "nhopself": 0, 
+            "holdtime": "180", 
+            "asn": "6501", 
+            "keepalive": "60"
+        }
+    }, 
+    "DEVICE_METADATA": {
+        "localhost": {
+            "hwsku": "Force10-S6000", 
+            "hostname": "SONiC2-3", 
+            "platform": "x86_64-kvm_x86_64-r0", 
+            "mac": "0c:e7:63:75:40:00", 
+            "bgp_asn": "6502", 
+            "type": "LeafRouter"
+        }
+    }, 
+    "DEVICE_NEIGHBOR": {}, 
+    "LOOPBACK_INTERFACE": {
+        "Loopback0|10.1.0.3/24": {}
+    }, 
+    "INTERFACE": {
+        "Ethernet4|10.0.1.2/24": {}, 
+        "Ethernet16|200.0.0.1/24": {}
+    }, 
+
